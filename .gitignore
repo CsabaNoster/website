@@ -1,0 +1,30 @@
+.vscode/
+.env
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+.DS_Store
+Thumbs.db
+staticsite/users.db
+staticsite/users.json
+*.sqlite
+/*.log
+# Editor / OS files
+*.swp
+*~
+
+# Optional: don't commit large uploads if you prefer
+# staticsite/uploads/
+
+# Don't commit local secrets
+secrets.env
+
+# Keep this repo's built site or publish branch separate
+/public/
+
+# If you use npm or pnpm lockfiles
+package-lock.json
+pnpm-lock.yaml
